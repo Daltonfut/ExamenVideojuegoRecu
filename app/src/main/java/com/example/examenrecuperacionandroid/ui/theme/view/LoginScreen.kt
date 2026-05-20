@@ -23,24 +23,24 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.examenrecuperacionandroid.R
 import com.example.examenrecuperacionandroid.ui.theme.viewmodel.AuthViewModel
 
 @Composable
 fun LoginScreen(onLoginSuccess: () -> Unit, authViewModel: AuthViewModel = viewModel()) {
-    var email by rememberSaveable { mutableStateOf("") }
+    var email by rememberSaveable {
+        mutableStateOf("")
+    }
     var password by rememberSaveable { mutableStateOf("") }
     var mostrarPassword by rememberSaveable { mutableStateOf(false) }
     var esIncorrecta by rememberSaveable { mutableStateOf(false) }
 
     Column(
-        modifier = Modifier.fillMaxSize().padding(16.dp),
+        modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -85,7 +85,7 @@ fun LoginScreen(onLoginSuccess: () -> Unit, authViewModel: AuthViewModel = viewM
                 )
             },
             modifier = Modifier.fillMaxWidth().height(50.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF27D21F))
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF5d7d7c))
         ) {
             Text("Login", color = Color.White)
         }
