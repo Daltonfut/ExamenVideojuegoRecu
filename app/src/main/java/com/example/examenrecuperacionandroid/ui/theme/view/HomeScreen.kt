@@ -16,25 +16,13 @@ import com.example.examenrecuperacionandroid.ui.theme.modelo.Juego
 
 @Composable
 fun HomeScreen() {
-    val juegos = listOf(
-        Juego("1", "Crimson", "hh", "PS4",7,R.drawable.ps)
-    )
-    LazyColumn(
-        modifier = Modifier
-            .fillMaxWidth()
+    Column(
+        modifier = Modifier.fillMaxSize()
     ) {
-        Row(
-            modifier = Modifier
-                .width(20.dp)
+        Card(
+            modifier = Modifier.fillMaxWidth()
         ) {
-            Card() {
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                ) {
-
-                }
-            }
+            
         }
     }
 }
