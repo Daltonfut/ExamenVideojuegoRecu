@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "950150505470",
+    "project_id": "videojuegofirebase-bcdce",
+    "storage_bucket": "videojuegofirebase-bcdce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950150505470:android:06f52d6462d4740abfd6af",
+        "android_client_info": {
+          "package_name": "com.example.examenrecuperacionandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_rXbWsbnf5N1sMOXpRty_CqHrJePq53g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
