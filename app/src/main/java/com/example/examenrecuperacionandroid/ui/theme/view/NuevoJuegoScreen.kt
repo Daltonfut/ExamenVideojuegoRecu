@@ -1,4 +1,4 @@
 package com.example.examenrecuperacionandroid.ui.theme.view
 
-class JuegoScreen {
+class NuevoJuegoScreen {
 }
